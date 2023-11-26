@@ -1,0 +1,85 @@
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			html, body {
+				font-family: 'Noto Sans', sans-serif;
+			}
+
+			body{
+			}
+
+			
+			.container {
+				display: flex;
+				flex-direction:row;
+				/*width: 600px; esto hay que quitarlo */
+				flex-wrap:wrap;
+				width: 100%;
+				min-height: 400px;
+				height:100vh;
+				justify-content: left;
+				/*align-items:center;*/
+				align-items: stretch; 
+				background-color: #fafaff; /*white;*/
+				/*text-align: center;*/
+				/*box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
+				margin: 0px;
+			}
+
+			/*.tarjeta{
+				display:flex;
+				flex-direction:column;
+				width: 25%;
+				min-height:100px;
+				height:auto;
+				justify-content:center;
+				align-items:start;
+				background-color: yellowgreen;
+			}*/
+
+			.tarjeta {
+				box-sizing: border-box;
+				/*box-sizing: content-box;*/
+				width: 200px;
+				margin: 5px;
+				/*padding: 10px;*/
+				/*justify-content: left; //display:block */
+				border: 2px solid black;
+				box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+				/*overflow: hidden;*/
+				background-color:rgb(210, 236, 156);
+			  }
+
+			  img {
+				width: 100%;
+				height: auto;
+			  }
+			  .contenido {
+				padding: 4px;
+			  }
+
+			  .boton {
+				/*width: max(90%,calc(100% - 6px));*/
+				width: calc(100% - 6px);
+				margin: 3px;
+				padding: 8px;
+				background-color: gray;
+				border: none;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+			  }
+
+			  a {
+				color: white;
+				font-style: normal;
+			  }
+			
+			p {
+				font-size: 12px;
+				line-height: 1.5em;
+			}
